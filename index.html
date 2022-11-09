@@ -19,13 +19,23 @@
     <script>
       function writeValue() {
         document.getElementById('placeholder').innerHTML = 'This is the function'; }
+      
       function myFunction() {
         alert("Logan likes helicopters!");
         } myFunction();
+      
       function tokg(lb) {
       return (.45359) * (lb);
         } document.getElementById("demo").innerHTML = "180 pounds is equivalent to" + tokg(180) + " Kilograms" ;
+      
+      
+      function getcube(number){  
+       alert(number*number*number);  
+       } 
       </script>
+    <form>  
+      <input type="button" value="click" onclick="getcube(8)"/>  
+    </form>  
  
   </body>
 </html>
